@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <title>FuTurismo</title>
+  </head>
+
+  <body
+    data-bs-theme="dark"
+    style="background-color: #0b0318; font-family: 'Abel', sans-serif"
+  >
+    <!--NAVBAR-->
+    <nav
+      style="background-color: #1a0f27"
+      class="navbar navbar-expand-lg fixed-top"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand align-middle" href="#carouselExampleControls">
+          <img
+            src="img/telefone-publico.webp"
+            alt="Logo"
+            width="41"
+            class="d-inline-block"
+          />
+          FuTurismo
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#Sobre">Sobre</a>
+            <a class="nav-link" href="comprarViagem.html">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main style="margin-top: 6%">
+      <!--Slider-->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        style="box-shadow: 0px 4px 50px #310330"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/tempo.webp" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/tempo2.webp" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Conteúdo-->
+      <section class="container-fluid" style="margin: 3% 0" id="Sobre">
+        <div class="row">
+          <!--FOTO-->
+          <div class="col-lg-7">
+            <img src="img/cabine.webp" class="w-100" />
+          </div>
+          <div class="col-lg-5">
+            <h4 style="color: #772371">Sobre a FuTurismo</h4>
+            <p>
+              Bem-vindo à FuTurismo, a empresa que está prestes a levá-lo em uma
+              jornada única através do tempo, tudo isso a partir de uma cabine
+              telefônica futurista! Imagine a emoção de explorar os mistérios e
+              maravilhas do futuro, tudo isso sem sair do presente. Na
+              FuTurismo, tornamos essa visão extraordinária uma realidade
+              emocionante!
+            </p>
+            <h4 style="color: #772371">Nossa Missão</h4>
+            <p>
+              Acreditamos que o desejo humano de desvendar o desconhecido é
+              inato, e a exploração do tempo é a última fronteira. Nossa missão
+              é capacitar indivíduos a viajar para o futuro e vivenciar as
+              maravilhas que ele guarda, proporcionando uma experiência segura,
+              envolvente e acessível.
+            </p>
+            <h4 style="color: #772371">Tecnologia de Vanguarda</h4>
+            <p>
+              Nossas cabines telefônicas futuristas são o resultado de inovação
+              e engenhosidade. Fundimos tecnologia de vanguarda com ética e
+              responsabilidade, criando um meio seguro e emocionante de viajar
+              através do tempo. Nossos sistemas de controle temporal garantem
+              que você acesse apenas períodos específicos e previamente
+              autorizados, protegendo a integridade da linha temporal.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      id="footer"
+      class="page-footer p-2 col-xxl-1 m-auto w-100"
+      style="background-color: #1a0f27"
+    >
+      <div class="text-center">
+        <a href="" style="color: whitesmoke; text-decoration: none"
+          >@2023 Copyright: Gustavo Cavalcanti</a
+        >
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
